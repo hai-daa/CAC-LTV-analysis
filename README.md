@@ -88,6 +88,22 @@ These queries can be executed directly in BigQuery. Results can also be exported
 
 ## Recommendations 
 ```bash
+EXECUTIVE SUMMARY:
+
+This project models Customer Acquisition Cost (CAC), Lifetime Value (LTV), and retention dynamics for a fictional SaaS business operating in six global regions. Using synthetic data, it simulates key subscription business metrics to assess profitability and customer behavior across marketing channels and geographic segments.
+
+KEY FINDINGS:
+
+- Average CAC ranges from ~$50 to ~$400 depending on acquisition channel, with organic search proving significantly cheaper.
+- Average LTV across all customers is ~$4,290.
+- LTV:CAC ratios are highest for organic search (86.9x) and lowest for Google Ads (10.5x).
+- Organic Search has the highest LTV:CAC ratio (~87x), driven by low CAC and solid retention.
+- Paid channels like Google Ads and Meta Ads yield decent LTV but higher acquisition costs.
+- ARPU varies moderately across regions, ranging from ~$163 in the Middle East to ~$176 in LatAm.
+- Cohorts show typical churn over the first 12 months, with retention stabilizing around ~50% thereafter. This is visualized via cohort heatmaps.
+
+RECOMMENDATIONS:
+
 - Shift budget away from higher-CAC channels toward organic and lower-cost acquisition strategies.
 - Explore longer contract lengths to stabilize churn rates.
 - Further segment marketing efforts by region, given ARPU differences.
