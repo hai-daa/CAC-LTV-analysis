@@ -11,14 +11,6 @@ This project models Customer Acquisition Cost (CAC), Lifetime Value (LTV), and r
 
 ---
 
-## Who Is This For?
-
-- Financial analysts monitoring CAC and LTV
-- SaaS business stakeholders exploring marketing ROI
-- Data professionals building business-focused analytics
-- Python learners applying data viz to business KPIs
-
----
 
 ## Project Structure
 
@@ -93,23 +85,6 @@ These queries can be executed directly in BigQuery. Results can also be exported
 
 ---
 
-## How to Run
-
-### 1. Clone this Repo
-```bash
-git clone https://github.com/ameer-nassar/cac-ltv-model.git
-cd cac-ltv-model
-```
-
-### 2. Install Requirements
-```bash
-pip install -r minimum_requirements.txt
-```
-
-### 3. Run the Script
-```bash
-python cac_ltv_model.py
-```
 
 ## Recommendations 
 ```bash
