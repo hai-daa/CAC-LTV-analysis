@@ -50,16 +50,6 @@ This project models Customer Acquisition Cost (CAC), Lifetime Value (LTV), and r
   - `ltv_cac_ratio.sql`
   - `cohort_analysis.sql`
 
----
-
-## Tools & Libraries
-
-- Python 3
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- Google BigQuery (SQL)
 
 ---
 
